@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mahalakshmi R | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="maha-photo.jpeg" alt="Mahalakshmi Photo" class="profile-pic">
+            <h1>Mahalakshmi R</h1>
+            <p>Information Technology Student</p>
+        </div>
+    </header>
+
+    <section>
+        <h2>Career Objective</h2>
+        <p>
+            A dedicated Information Technology student with a strong work ethic and passion for 
+            software development and emerging technologies. Seeking an internship or entry-level 
+            opportunity to apply my knowledge and gain practical experience.
+        </p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p><strong>B.Tech IT</strong> – Panimalar Engineering College (2023–Present)<br>
+        CGPA: 7.835</p>
+
+        <p><strong>HSC (Maths & Biology)</strong> – Sri Divya Chaitanya Matric Hr Sec School (2022–2023)<br>
+        73.8%</p>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Java, Python</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>MySQL</li>
+            <li>MS Excel, VS Code</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Project</h2>
+        <h3>Airport Queue Management System</h3>
+        <p>
+            Designed a system to manage and optimize passenger queues in airports 
+            to reduce waiting time and improve passenger flow management.
+        </p>
+    </section>
+
+    <section>
+        <h2>Internship</h2>
+        <p><strong>InternPe – Python Intern</strong></p>
+        <ul>
+            <li>Worked on Python-based tasks</li>
+            <li>Improved problem-solving skills</li>
+            <li>Basic application development</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Certifications</h2>
+        <ul>
+            <li>NPTEL – Data Science for Engineers</li>
+            <li>SoloLearn – Java, Python, C, SQL</li>
+            <li>Simplilearn SkillUp – Data Structures & Algorithms</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: rmahalak1102@gmail.com</p>
+        <p>Phone: +91 9047373699</p>
+        <p>
+            LinkedIn: 
+            <a href="https://www.linkedin.com/in/maha-lakshmi-5bba0b307" target="_blank">
+                Click Here
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Mahalakshmi R</p>
+    </footer>
+
+</body>
+</html>
