@@ -1,73 +1,89 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f4f6f9;
-    color: #333;
-}
-
-header {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
     color: white;
-    text-align: center;
-    padding: 50px 20px;
 }
 
-h1 {
-    margin: 0;
-    font-size: 36px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #1e293b;
+}
+
+nav h2 {
+    color: #38bdf8;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px;
+}
+
+.hero span {
+    color: #38bdf8;
+}
+
+.hero-img img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #38bdf8;
 }
 
 section {
-    padding: 40px 20px;
-    max-width: 900px;
-    margin: auto;
+    padding: 60px 50px;
 }
 
 h2 {
-    color: #2575fc;
+    color: #38bdf8;
     margin-bottom: 20px;
+}
+
+.skill-box span {
+    background: #38bdf8;
+    padding: 8px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 20px;
+    color: #0f172a;
+    font-weight: bold;
 }
 
 .card {
-    background: white;
+    background: #1e293b;
     padding: 20px;
-    margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.skills span {
-    display: inline-block;
-    background: #2575fc;
-    color: white;
-    padding: 8px 15px;
-    margin: 5px;
-    border-radius: 20px;
-    font-size: 14px;
-}
-
-.cert {
-    list-style: none;
-    padding: 0;
-}
-
-.cert li {
-    background: white;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-}
-
-.contact a {
-    color: #2575fc;
+#contact a {
+    color: #38bdf8;
     text-decoration: none;
     font-weight: bold;
 }
 
 footer {
-    background: #222;
-    color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
+    background: #1e293b;
 }
