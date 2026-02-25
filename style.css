@@ -1,92 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Mahalakshmi R | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
 
-    <header>
-        <div class="container">
-            <img src="maha-photo.jpeg" alt="Mahalakshmi Photo" class="profile-pic">
-            <h1>Mahalakshmi R</h1>
-            <p>Information Technology Student</p>
-        </div>
-    </header>
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
 
-    <section>
-        <h2>Career Objective</h2>
-        <p>
-            A dedicated Information Technology student with a strong work ethic and passion for 
-            software development and emerging technologies. Seeking an internship or entry-level 
-            opportunity to apply my knowledge and gain practical experience.
-        </p>
-    </section>
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
 
-    <section>
-        <h2>Education</h2>
-        <p><strong>B.Tech IT</strong> – Panimalar Engineering College (2023–Present)<br>
-        CGPA: 7.835</p>
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
 
-        <p><strong>HSC (Maths & Biology)</strong> – Sri Divya Chaitanya Matric Hr Sec School (2022–2023)<br>
-        73.8%</p>
-    </section>
+h2 {
+    color: #2575fc;
+    margin-bottom: 20px;
+}
 
-    <section>
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Java, Python</li>
-            <li>HTML, CSS, JavaScript</li>
-            <li>MySQL</li>
-            <li>MS Excel, VS Code</li>
-            <li>UI/UX Design</li>
-        </ul>
-    </section>
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
 
-    <section>
-        <h2>Project</h2>
-        <h3>Airport Queue Management System</h3>
-        <p>
-            Designed a system to manage and optimize passenger queues in airports 
-            to reduce waiting time and improve passenger flow management.
-        </p>
-    </section>
+.skills span {
+    display: inline-block;
+    background: #2575fc;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
 
-    <section>
-        <h2>Internship</h2>
-        <p><strong>InternPe – Python Intern</strong></p>
-        <ul>
-            <li>Worked on Python-based tasks</li>
-            <li>Improved problem-solving skills</li>
-            <li>Basic application development</li>
-        </ul>
-    </section>
+.cert {
+    list-style: none;
+    padding: 0;
+}
 
-    <section>
-        <h2>Certifications</h2>
-        <ul>
-            <li>NPTEL – Data Science for Engineers</li>
-            <li>SoloLearn – Java, Python, C, SQL</li>
-            <li>Simplilearn SkillUp – Data Structures & Algorithms</li>
-        </ul>
-    </section>
+.cert li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
 
-    <section>
-        <h2>Contact</h2>
-        <p>Email: rmahalak1102@gmail.com</p>
-        <p>Phone: +91 9047373699</p>
-        <p>
-            LinkedIn: 
-            <a href="https://www.linkedin.com/in/maha-lakshmi-5bba0b307" target="_blank">
-                Click Here
-            </a>
-        </p>
-    </section>
+.contact a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-    <footer>
-        <p>© 2026 Mahalakshmi R</p>
-    </footer>
-
-</body>
-</html>
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
